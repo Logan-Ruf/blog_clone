@@ -17,8 +17,11 @@ class CommentForm(forms.ModelForm)
         class Meta()
             model = Comment
             fields = ('author','text')
+<<<<<<< HEAD
 
             widgets = {
                 'author':forms.TextInput(attrs={'class':'textinputclass'}),
                 'text':forms.Textarea(attrs={'class':'editable medium-editor-textarea'}),
             }
+=======
+>>>>>>> 97a79f4c0530804f260e23c88efddcdf4689a243
