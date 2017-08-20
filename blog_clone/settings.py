@@ -121,9 +121,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
-<<<<<<< HEAD
 
 
 LOGIN_REDIRECT_URL = '/'
-=======
->>>>>>> 97a79f4c0530804f260e23c88efddcdf4689a243
